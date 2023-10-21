@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Header*/
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+/*boton desplegable (es para mobile por eso esta oculto*/
+.contenedor_boton{
+    display: none;
+}
+.header_img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.header_img>img{
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+/*Animacion imagen proteina*/
+.header_img>img:hover{
+    transform: scale(1.1);
+}
+.header_img_img2{
+    display: flex;
+    width: 40%;
+    height: 60%;
+}
+.header_img_img2>img{
+    object-fit: cover;
+    transition: 0.5s;
+}
+/*Animacion imagen creatina*/
+.header_img_img2>img:hover{
+    transform: scale(1.1);
+}
+.header_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+}
+/*Titulo al lado de la img*/
+.title{
+    text-align: center;
+    font-weight:700;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/*Parrafo debajo del titulo*/
+.parraf{
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+/*Barra de navegacion*/
+.nav_container{
+    display: flex;
+    margin: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height:25%;
+    z-index: 1;
+    background-color: transparent;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 0.5px;
+    transition: .5s;
+}
+/*Hover*/
+.nav_container:hover{
+    background-color: rgb(249, 249, 249);
+}
+.nav_container>li{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-weight: bolder;
+}
+/*Clase creada a traves de JS cuando tocas el boton*/
+li>a{
+    text-decoration: none;
+    color: rgb(139, 35, 35);
+}
+.nav_desplegable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 0;
+    width: 0;
+    list-style: none;
+    overflow: hidden;
+    transition:0.5s ease-in-out;
+}
