@@ -21,6 +21,12 @@
     footer{
         width:100vh;
     }
+    .main{
+        width: 100vh;
+    }
+    .header_mobile_text{
+        width: 100vh;
+    }
 
 }
 
