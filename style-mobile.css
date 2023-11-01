@@ -110,12 +110,12 @@
     .header_img>img{
         width: 80%;
         height: 85%;
-        margin-left: 150px;
+        margin-left: 130px;
     }
     .header_img_img2{
         width: 10%;
         height: 40%;
-        margin-left: 100px;
+        margin-left: 40px;
     }
     .header_text{
         display: none;
@@ -159,9 +159,17 @@
     }
 
 }
-@media screen and (max-width:415px){
+@media screen and (max-width:425px){
     .nav_desplegable{
         width: 100%;
+    }
+    .header_img>img{
+        width: 80%;
+        height: 95%;
+    }
+    .header_img_img2{
+        height: 50%;
+        width: 30%;
     }
 }
 
