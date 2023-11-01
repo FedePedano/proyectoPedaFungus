@@ -18,7 +18,9 @@
     .parraf{
         font-size: 15px;
     }
-
+    footer{
+        width:100vh;
+    }
 
 }
 
@@ -135,6 +137,17 @@
     .arrow{
         font-size: 15px;
     }
+    .header_mobile_text{
+        width: 100vh;
+    }
+    .parraf_mobile{
+        width: 60%;
+        font-size: 20px;
+    }
+    .main{
+        width: 100vh;
+    }
+
 }
 @media screen and (max-width:415px){
     .nav_desplegable{
